@@ -17,7 +17,7 @@ public class FormatDatesStringToDate {
       } catch (ParseException e) { 
          System.out.println("Unparseable using " + ft);
          System.out.println("Student Test: Pramit");
-         System.out.println("Double Student test");
+         System.out.println("Double Student tes");
       }
    }
 }
