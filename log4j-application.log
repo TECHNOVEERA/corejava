@@ -1,0 +1,6 @@
+2019-10-03 16:46:24 ERROR CheckedUncheckedExceptionsDemo:43 - something went wrong in file processing:[Ljava.lang.StackTraceElement;@15aeb7ab
+2019-10-03 16:50:00 ERROR CheckedUncheckedExceptionsDemo:43 - something went wrong in file processing:[Ljava.lang.StackTraceElement;@15aeb7ab
+2019-10-03 16:50:42 ERROR CheckedUncheckedExceptionsDemo:43 - something went wrong in file processing:[Ljava.lang.StackTraceElement;@15aeb7ab
+2019-10-03 16:53:05 ERROR CheckedUncheckedExceptionsDemo:43 - something went wrong in file processing:[Ljava.lang.StackTraceElement;@15aeb7ab
+2019-10-03 16:54:05 INFO  CheckedUncheckedExceptionsDemo:34 - inside CheckedUncheckedExceptionsDemo class
+2019-10-03 16:54:05 ERROR CheckedUncheckedExceptionsDemo:44 - something went wrong in file processing:[Ljava.lang.StackTraceElement;@5f184fc6
