@@ -1,4 +1,4 @@
-package com.java.loops;
+package com.corejava.loops;
 
 public class ForLoopsDemo {
 
@@ -6,12 +6,12 @@ public class ForLoopsDemo {
 		  //integer array 
 	      int [] numbers = {10, 20, 30, 40, 50};
 
-	      /**for(int i=0;i<numbers.length;i++)
+	      for(int i=0;i<numbers.length;i++)
 	      {
 	    	  System.out.print( numbers[i]);
 	    	  
-	      }**/
-	      //introduced from java5
+	      }
+	      //advanced for loop:introduced from java5
 	      for(int number : numbers ) {
 	         System.out.print( number );
 	         System.out.print(",");
