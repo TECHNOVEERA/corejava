@@ -9,7 +9,7 @@ public class FormatDatesDateToString {
       Date dNow = new Date( );
       System.out.println("Current System Date: " + dNow);
       SimpleDateFormat ft = 
-      new SimpleDateFormat ("E yyyy.MM.dd 'at' hh:mm:ss a zzz");
+      new SimpleDateFormat ("MM");
       System.out.println("Formatter" + ft);
       System.out.println("Formatted Current System Date: " + ft.format(dNow));
    }

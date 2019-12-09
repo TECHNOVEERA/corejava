@@ -22,7 +22,7 @@ public class StringsDemo {
 	private int accountNumber;
     private String userName;
 	public static void main(String[] args) {
-       /*//1. String: immutable: once object is created cannot be modified 
+       //1. String: immutable: once object is created cannot be modified 
 		String s= new String("Test");
 		System.out.println(s);
 		s.concat("Test2");
@@ -35,10 +35,10 @@ public class StringsDemo {
 		System.out.println(buffer);
 		//3.StringBuffer: mutable:can be modified: best practice(use in non multithreaded env)equald and hashcode
 		StringBuilder builder= new StringBuilder("Test");
-		System.out.println(builder);
+		System.out.println(builder.t);
 		builder.append("Test2");
 		System.out.println(builder);
-		*/
+	/*
 		//4. pre defined string functions
 		/*
 		 * a. replace char at position 9 in input string
@@ -47,7 +47,7 @@ public class StringsDemo {
 		 * d. 
 		 */
 		
-		/*String input="ABCDEFGHIJKLMN";
+		String input="ABCDEFGHIJKLMN";
 		System.out.println("conver to lower case"+input.toLowerCase());
 		if(input.length()>=10)
 		System.out.println("replace char at position 9 in input string with Z"+input.replace(input.charAt(9), 'Z'));
@@ -55,14 +55,16 @@ public class StringsDemo {
 		if(input.length()>=7)
 		System.out.println("do substring from 4 to 6th index"+input.substring(4, 6));
 		System.out.println("take in dex of char 'A' and start doing substring from that index");
-		*/
 		//5..equals() ==  1. equals() will chcek contents of objects are same are not
 		//                2. == will check references of the objects are same or not.
 		String demo = new String("TEST");
-		String demo1 = new String("TEST");
+		String demo1 = new String("test");
 		demo1=demo;
-		System.out.println("equals() demo"+demo.equals(demo1));
+		System.out.println("equals() demo"+demo.equalsIgnoreCase(demo1));
 		System.out.println(demo==demo1);
+		
+		String input1 = "Green";
+		 String[] output=input1.split("");
 		
 		/*int i=10;
 		int j=10;
