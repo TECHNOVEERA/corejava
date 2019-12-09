@@ -26,11 +26,26 @@ public class CheckedUncheckedExceptionsDemo {
 	 * try-catch-finally:GOOD
 	 * only try:compiler error
 	 * only catch:compiler error
-	 * 
+	 * only finally:compiler error
 	 */
    public static void main(String args[]) throws IOException  {		
 	   FileReader fr=null;
+	   //not a good practice
       try {
+    	  try
+    	  {
+    		  
+    	  }
+    	  catch(Exception e)
+    	  {
+    		  try{
+    			  
+    		  }
+    		  catch(Exception e1)
+    		  {
+    			  
+    		  }
+    	  }
     	  logger.info("inside CheckedUncheckedExceptionsDemo class");
     	  logger.warn("inside CheckedUncheckedExceptionsDemo class");
     	  

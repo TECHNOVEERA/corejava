@@ -1,6 +1,6 @@
 //1-package: optional/mandatory: MANDATORY
 //com.<companyName>.<projectname>.<majormodule>.<minormodule>.<concept>
-package com.java.basics;
+package com.java.basics._1;
 
 import java.util.ArrayList;
 //2-import statements
